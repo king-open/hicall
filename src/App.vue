@@ -1,10 +1,14 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+  <div>
+    <router-view />
+    <hr/>
+    <div>
+      <router-link to="/money">标记</router-link>
+      ｜
+      <router-link to="/labels">记账</router-link>
+      ｜
+      <router-link to="/statistics">统计</router-link>
+    </div>
   </div>
 </template>
 
