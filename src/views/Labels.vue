@@ -1,10 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <div>
+  <Layout>
     Labels.vue
-    <Nav/>
-  </div>
+  </Layout>
 </template>
 
 <script>

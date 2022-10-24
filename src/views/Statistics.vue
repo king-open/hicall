@@ -1,10 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <div>
+  <Layout>
     Statistics.vue
-    <Nav/>
-  </div>
+  </Layout>
 </template>
 
 <script>
